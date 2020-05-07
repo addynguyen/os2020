@@ -1,0 +1,32 @@
+
+Admin@DESKTOP-R4T5MO4 MINGW64 ~
+$ ls | grep list
+
+Admin@DESKTOP-R4T5MO4 MINGW64 ~
+$ wc -l /etc/passwd
+wc: /etc/passwd: No such file or directory
+
+Admin@DESKTOP-R4T5MO4 MINGW64 ~
+$ free
+bash: free: command not found
+
+Admin@DESKTOP-R4T5MO4 MINGW64 ~
+$ cat /proc/cpuinfo | grep cpu | grep cores
+cpu cores       : 6
+cpu cores       : 6
+cpu cores       : 6
+cpu cores       : 6
+cpu cores       : 6
+cpu cores       : 6
+cpu cores       : 6
+cpu cores       : 6
+cpu cores       : 6
+cpu cores       : 6
+cpu cores       : 6
+cpu cores       : 6
+
+Admin@DESKTOP-R4T5MO4 MINGW64 ~
+$ find . -type f -name "*.jpg" | wc -l
+
+344
+

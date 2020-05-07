@@ -1,0 +1,10 @@
+Admin@DESKTOP-R4T5MO4 MINGW64 ~
+$ ps -o nlwp $(pidof firefox)
+bash: pidof: command not found
+ps: unknown option -- o
+Try `ps --help' for more information.
+
+Admin@DESKTOP-R4T5MO4 MINGW64 ~
+$ ls /proc/1851/task/ |wc -l
+ls: cannot access '/proc/1851/task/': No such file or directory
+0
