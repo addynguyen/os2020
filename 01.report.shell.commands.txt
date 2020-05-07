@@ -1,0 +1,83 @@
+
+Admin@DESKTOP-R4T5MO4 MINGW64 ~
+$ echo HelloWorld
+HelloWorld
+
+Admin@DESKTOP-R4T5MO4 MINGW64 ~
+$ passwd
+Old password:
+New password:
+Re-enter new password:
+You may not change the password for Admin.
+Try again.
+New password:
+Re-enter new password:
+You may not change the password for Admin.
+Try again.
+New password:
+Re-enter new password:
+You may not change the password for Admin.
+
+Admin@DESKTOP-R4T5MO4 MINGW64 ~
+$ date
+Thu, May  7, 2020  3:09:47 PM
+
+Admin@DESKTOP-R4T5MO4 MINGW64 ~
+$ hostname
+DESKTOP-R4T5MO4
+
+Admin@DESKTOP-R4T5MO4 MINGW64 ~
+$ arch
+x86_64
+
+Admin@DESKTOP-R4T5MO4 MINGW64 ~
+$ uname -a
+MINGW64_NT-10.0-18363 DESKTOP-R4T5MO4 3.0.7-338.x86_64 2019-11-21 23:07 UTC x86_64 Msys
+
+Admin@DESKTOP-R4T5MO4 MINGW64 ~
+$ sudo dmesg
+bash: sudo: command not found
+
+Admin@DESKTOP-R4T5MO4 MINGW64 ~
+$ sudo dmesg
+bash: sudo: command not found
+
+Admin@DESKTOP-R4T5MO4 MINGW64 ~
+$ uptime
+bash: uptime: command not found
+
+Admin@DESKTOP-R4T5MO4 MINGW64 ~
+$ whoami
+Admin
+
+Admin@DESKTOP-R4T5MO4 MINGW64 ~
+$ id
+uid=197609(Admin) gid=197121 groups=197121
+
+Admin@DESKTOP-R4T5MO4 MINGW64 ~
+$ last
+bash: last: command not found
+
+Admin@DESKTOP-R4T5MO4 MINGW64 ~
+$ finger
+
+Displays information about a user on a specified system running the
+Finger service. Output varies based on the remote system.
+
+FINGER [-l] [user]@host [...]
+
+  -l        Displays information in long list format.
+  user      Specifies the user you want information about. Omit the user
+            parameter to display information about all users on the
+            specifed host.
+  @host     Specifies the server on the remote system whose users you
+            want information about.
+
+
+Admin@DESKTOP-R4T5MO4 MINGW64 ~
+$ w
+bash: w: command not found
+
+Admin@DESKTOP-R4T5MO4 MINGW64 ~
+$ a
+bash: a: command not found
